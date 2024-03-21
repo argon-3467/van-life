@@ -70,6 +70,11 @@ export default function Login() {
           {navigation.state === "submitting" ? "Logging in..." : "Log in"}
         </button>
       </Form>
+      <p>
+        <span>
+          You can use email: b@b.com and password: p123 for demo purposes
+        </span>
+      </p>
     </div>
   );
 }
